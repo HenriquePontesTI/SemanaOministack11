@@ -77,7 +77,7 @@ export default function Incidents() {
                             }</Text>
 
                         <TouchableOpacity
-                            style={styles.detailsButton}
+                            style={styles.detailButton}
                             onPress={() => navigateToDetail(incident)}>
                             <Text style={styles.detailsButtonText}>Ver mais detalhes.</Text>
                             <Feather name="arrow-right" size={16} color="#E02041" />

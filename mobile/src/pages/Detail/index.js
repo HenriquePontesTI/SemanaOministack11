@@ -32,7 +32,7 @@ export default function Detail() {
         });
     }
     function sendWhatsApp() {
-        Linking.openURL(`whatsapp://send?phone=${incident.whatsapp}8&text=${message}`);
+        Linking.openURL(`whatsapp://send?phone=55${incident.whatsapp}&text=${message}`);
     }
     return (
         <View style={styles.container}>
